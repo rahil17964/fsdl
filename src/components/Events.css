@@ -1,0 +1,45 @@
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.event-card {
+  background-color: #262b33;
+  border-left: 4px solid #2af598;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+}
+
+.event-title {
+  color: #2af598;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  background-color: #354e5b;
+  color: #e8f1f2;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.event-description {
+  color: #c3d1d6;
+  font-size: 15px;
+  line-height: 1.6;
+}

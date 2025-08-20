@@ -1,0 +1,82 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .modal-content {
+    background: #222;
+    padding: 30px 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #2af598;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #3b3b3b;
+    color: white;
+    transition: background-color 0.3s ease;
+    resize: vertical;
+    min-height: 40px;
+  }
+  
+  .form textarea {
+    min-height: 80px;
+  }
+  
+  .form input::placeholder,
+  .form textarea::placeholder {
+    color: #bbb;
+  }
+  
+  .form input:focus,
+  .form textarea:focus {
+    background-color: #505050;
+  }
+  
+  .form button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button {
+    background-color: #999;
+    margin-top: 4px;
+  }
+  

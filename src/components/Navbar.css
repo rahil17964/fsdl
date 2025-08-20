@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #2f3640;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 24px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-items li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-items li:hover {
+  color: #2af598;
+}
+
+.auth-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.auth-button {
+  background: none;
+  border: 2px solid #2af598;
+  border-radius: 25px;
+  color: #2af598;
+  font-weight: 600;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.auth-button:hover {
+  background: #2af598;
+  color: #222;
+}
+
+.welcome-text {
+  font-weight: 600;
+  font-size: 16px;
+}
